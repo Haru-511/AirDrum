@@ -1,0 +1,15 @@
+cat << 'EOF' > .gitignore
+# Archivos temporales y de bloqueo de KiCad
+*.lck
+*.bak
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# Archivos de caché y logs
+_autosave-*
+*.log
+fp-info-cache
+
+# Salidas de fabricación locales (opcional si prefieres no rastrear compilados)
+# PCB_BAQUETA/*.zip
+EOF
