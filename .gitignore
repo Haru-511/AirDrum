@@ -21,3 +21,4 @@ fp-info-cache
 # Salidas de fabricación locales (opcional si prefieres no rastrear compilados)
 # PCB_BAQUETA/*.zip
 EOF
+.history/
