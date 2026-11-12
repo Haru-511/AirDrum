@@ -1,4 +1,12 @@
-cat << 'EOF' > .gitignore
+cat << 'EOF' >> .gitignore
+
+# Bloqueos y configuracion local de KiCad
+*.lck
+*~
+*.kicad_prl
+fp-info-cache
+*-backups/
+EOFcat << 'EOF' > .gitignore
 # Archivos temporales y de bloqueo de KiCad
 *.lck
 *.bak
